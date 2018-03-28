@@ -1,8 +1,8 @@
 # aws-s3-twilio-notification
 
-Download this project
+Download this project.
 
-Run npm install to download the required modules
+Run npm install to download the required modules.
 
 Install Serverless.
 
