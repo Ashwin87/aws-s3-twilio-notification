@@ -1,7 +1,5 @@
 # aws-s3-twilio-notification
 
-# How to Use and Test:
-
 1. Download this project.
 
 2. Run npm install to download the required modules.
