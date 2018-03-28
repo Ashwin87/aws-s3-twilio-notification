@@ -1,29 +1,31 @@
 # aws-s3-twilio-notification
 
-Download this project.
+# How to Use and Test:
 
-Run npm install to download the required modules.
+1. Download this project.
 
-Install Serverless.
+2. Run npm install to download the required modules.
 
-Install AWS CLI and configure it with your account.
+3. Install Serverless.
 
-Create a Twilio account at https://www.twilio.com/
+4. Install AWS CLI and configure it with your account.
 
-In the serverless.yml file.
+5. Create a Twilio account at https://www.twilio.com/
 
-Set the region and profile according to your AWS CLI configuration.
+6. In the serverless.yml file.
 
-Change the name of the bucket in custom -> bucket.
+7. Set the region and profile according to your AWS CLI configuration.
 
-Add your Twilio Account SID (account-SID).
+8. Change the name of the bucket in custom -> bucket.
 
-Add your Twilio Account Token (auth_token).
+9. Add your Twilio Account SID (account-SID).
 
-Add your Twilio Phone Number (twilio_phone_No).
+10. Add your Twilio Account Token (auth_token).
 
-Add the desired phone number to receive the SMS (phone_no_to_recieve_sms).
+11. Add your Twilio Phone Number (twilio_phone_No).
 
-Run serverless deploy -v.
+12. Add the desired phone number to receive the SMS (phone_no_to_recieve_sms).
 
-Test this function by adding any file in the bucket.
+13. Run serverless deploy -v.
+
+14. Test this function by adding any file in the bucket.
