@@ -1,0 +1,7 @@
+{
+	"name": "aws-s3-twilio",
+	"dependencies": {
+		"aws-sdk": "^2.213.1",
+		"twilio": "^3.14.0"
+	}
+}
