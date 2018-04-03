@@ -12,18 +12,14 @@
 
 6. In the serverless.yml file.
 
-7. Set the region and profile according to your AWS CLI configuration.
+7. Add your Twilio Account SID (account-SID).
 
-8. Change the name of the bucket in custom -> bucket.
+8. Add your Twilio Account Token (auth_token).
 
-9. Add your Twilio Account SID (account-SID).
+9. Add your Twilio Phone Number (twilio_phone_No).
 
-10. Add your Twilio Account Token (auth_token).
+10. Add the desired phone number to receive the SMS (phone_no_to_recieve_sms).
 
-11. Add your Twilio Phone Number (twilio_phone_No).
+11. Run serverless deploy -v.
 
-12. Add the desired phone number to receive the SMS (phone_no_to_recieve_sms).
-
-13. Run serverless deploy -v.
-
-14. Test this function by adding any file in the bucket.
+12. Test this function by adding any file in the bucket.
